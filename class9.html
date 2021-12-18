@@ -1,0 +1,282 @@
+Question: 1
+Ans:
+
+<html lang="en">
+<head>
+  <title>Document Guvi</title>
+</head>
+<body>
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+      Guvi Geek Network
+    </div>
+  </div>
+</body>
+</html>
+
+Question: 2
+Ans : All the content in the html is rendered as title in the nav bar
+
+from Q3 to Q11
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Assignment</title>
+
+  <style>
+    table,
+    tr,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .form {
+      width: 50%;
+      padding: 1rem;
+      border: 2px solid black;
+      margin: 0 auto;
+    }
+
+    .form-h3 {
+      background-color: red;
+      margin: 0 0 1rem 0;
+      text-align: center;
+      color: white;
+      padding: 0.5rem;
+    }
+
+    .list {
+      list-style-type: none;
+      padding-left: 0.3rem;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    input:active,
+    input:focus,
+    input {
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+    }
+
+    div>div {
+      display: inline-block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <p>Question: 3</p>
+    <form style="background-color: red;width: 50%;margin: 0 auto;padding: 1rem;" action="#">
+      <input type='text' name='first'>
+      <label for='first'>First Name</label>
+      <br />
+
+      <input type='text' name='last'>
+      <label for='last'>Last Name</label>
+      <br />
+
+      <input type='email' name='email'>
+      <label for='email'>E-mail</label>
+      <br />
+
+      <input type='text' name='comment'>
+      <label for='comment'>comment</label>
+      <br />
+
+      <button type='submit'>Submit</button>
+    </form>
+  </section>
+
+  <p>Question: 4</p>
+  <ul>
+    <li>Programming Language</li>
+    <ul>
+      <li>JavaScript</li>
+      <ol type="a">
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue</li>
+      </ol>
+    </ul>
+    <ul>
+      <li>Python</li>
+      <ol type="a">
+        <li>Django</li>
+        <li>Flask</li>
+      </ol>
+    </ul>
+    <ul>
+      <li>JavaScript</li>
+      <ol type="a">
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+      </ol>
+    </ul>
+    <li>Database</li>
+    <ul>
+      <li>MySQL</li>
+      <li>MongoDB</li>
+      <li>Casendra</li>
+    </ul>
+  </ul>
+
+  <p>Question: 5</p>
+  <a href="https://www.google.com" target="blank">Google</a>
+  <br />
+
+  <p>Question: 6</p>
+  <form>
+    <p>Employment type</p>
+    <input type='radio' name='salaried-type' value='Salaried' required>
+    <label for='salaried-type'>Salaried</label>
+    <input type='radio' name='salaried-type' value='Own-Business' required>
+    <label for='salaried-type'>Own-Business</label>
+
+    <button type='submit'>Submit</button>
+  </form>
+
+  <section>
+    <p>Question: 7</p>
+    <form class='form'>
+      <h3 class='form-h3'>Yes! I want to subscribe to Mag-O-Zine</h3>
+      <div>
+        <div>
+          <input type="text" name="first_name" id="" size='40%'><br />
+          <label for="first_name">First Name</label>
+        </div>
+
+        <div>
+          <input type="text" name="last_name" id="" size='40%'><br />
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+
+      <div>
+        <input type="text" name="address" id="" size='100%'>
+        <label for='address'>Address</label>
+      </div>
+
+      <div style="margin-bottom: 1rem;">
+        <div>
+          <input type="text" name="city" id=""><br />
+          <label for='city'>City</label>
+        </div>
+
+        <div>
+          <input type="text" name="state" id=""><br />
+          <label for='state'>State</label>
+        </div>
+
+        <div>
+          <input type="text" name="zip" id="" maxlength="6" size='6'><br />
+          <label for='zip'>Zip</label>
+        </div>
+      </div>
+
+
+      <div>
+        <p class='inline'>Subscribe for:</p>
+        <input type="radio" name="radio" id="" value='1 year'>
+        <label>1 year($19.95)</label>
+        <input type="radio" name="radio" id="" value='2 year'>
+        <label>2 years($35.00)</label>
+      </div>
+
+      <p>Send me more information about:</p>
+      <ul class='list'>
+        <li>
+          <input type="checkbox" name="checkbox" id="" value='computer-zone'>
+          <label for='checkbox'>Computer-Zone</label>
+        </li>
+        <li>
+          <input type="checkbox" name="checkbox" id="" value='fishing-zone'>
+          <label for='checkbox'>Fishing-Zone</label>
+        </li>
+        <li>
+          <input type="checkbox" name="checkbox" id="" value='cat-o-zone'>
+          <label for='checkbox'>Cat-O-Zone</label>
+        </li>
+      </ul>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <p>Question: 8</p>
+  <table>
+    <caption>Health Chart</caption>
+    <colgroup>
+      <col span='1' style="background-color: #f2f2f2;width:14rem">
+    </colgroup>
+    <thead>
+      <tr>
+        <td rowspan="2">State of health </td>
+        <td colspan="2">Fasting Value</td>
+        <td>After Eating</td>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours After Eating</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Question: 9</p>
+  
+
+  <p>Question: 10</p>
+  <mark>HTML & CSS is awesome</mark>
+
+  <p>Question: 11</p>
+  <input type="text">
+  <input type='number'>
+  <input type='password'>
+  <input type='email'>
+  <input type="color">
+  <input type="image">
+  <input type="file">
+  <input type="radio">
+  <input type="checkbox">
+  <input type="datetime-local">
+  <input type="tel">
+  <input type="month">
+  <input type="reset">
+  <input type="range">
+</body>
+
+</html>
